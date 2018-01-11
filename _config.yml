@@ -2,9 +2,7 @@ title: Jekyll Simple Dark
 email: sonlink.dourden@gmail.com
 description: > # Mi blog personal donde hablo de mis proyectos, tutoriales, etc, ademas de exponer mis trabajos y proyectos.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://son-link.github.io" # the base hostname & protocol for your site
-twitter_username: sonlink
-github_username:  son-link
+url: "https://son-link.github.io/jekyll-simple-dark/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
