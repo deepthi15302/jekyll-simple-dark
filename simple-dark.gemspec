@@ -1,12 +1,12 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "simple-dark"
-  spec.version       = "0.1.0"
+  spec.name          = "jekyll-simple-dark"
+  spec.version       = "0.2.0"
   spec.authors       = ["Alfonso Saavedra 'Son Link'"]
   spec.email         = ["sonlink.dourden@gmail.com"]
 
-  spec.summary       = %q{Simple dark theme using Colors palette. http://clrs.cc/}
+  spec.summary       = %q{Simple dark theme for Jekyll using Colors palette. http://clrs.cc/}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 

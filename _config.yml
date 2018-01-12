@@ -16,3 +16,10 @@ social_links: true # If true show social links
 facebook: 'https://www.facebook.com/Son-Link-Blog-159172270839305/?ref=your_pages'
 twitter: 'https://twitter.com/sonlink'
 github: 'https://github.com/son-link'
+
+plugins:
+- jekyll-paginate
+
+# Pagination
+paginate: 3
+paginate_path: "page:num/"
