@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# simple-dark
+# jekyll-simple-dark
 
 A simple and dark theme for Jekyll. **Under development**
 
@@ -35,17 +35,24 @@ Browser compatibility:
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+Add this lines to your Jekyll site's `Gemfile`:
 
 ```ruby
 gem "jekyll-simple-dark"
+gem "jekyll-paginator" # This line isn't necessary if you use github-pages
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+Add this lines to your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: jekyll-simple-dark
+plugins:
+- jekyll-paginate
+paginate: 5 # Posts per page
+paginate_path: "page:num/"
 ```
+
+Rename **index.md** to **index.html** and change this line, `layout: home` to `layout: default`
 
 And then execute:
 
@@ -54,8 +61,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install simple-dark
-
-## Usage
 
 ### Social links:
 
