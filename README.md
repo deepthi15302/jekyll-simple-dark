@@ -3,11 +3,13 @@
 A simple and dark theme for Jekyll. **Under development**
 
 Responsive images, tables and iframes (for include videos of **Youtube**, **Vimeo** or similar services)
-A minimal pure javascript code for toggle menu and responsive tables.
+A minimal pure javascript code for toggle menu and responsive tables. Compatible with Google Analytics and jekyll-seo-tags.
+
 Icon font make with [Fontello](http://fontello.com/)
 
 Support socials networks links (simple add the links on your _config.yml):
 
+* RSS
 * Facebook
 * Twitter
 * Google+
@@ -62,6 +64,7 @@ For activate social links add these lines on your _config.yml:
 
 ```yaml
 social_links: true  # If true show social links
+rss: true # For add icon to link feed.xml
 facebook:
 github:
 gplus:
@@ -85,6 +88,17 @@ Insert the iframe code into a div whit the class **video** and remove **width** 
   <iframe  src="https://www.youtube.com/embed/<videoID>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 ```
+
+### Google Analytics:
+For use Google Analytics include this line  on **_config.yml** and replace &lt;code> for your Google Analytics code:
+
+```yaml
+google-analytics: <code>
+```
+Where &lt;code> is your Google Analytics code.
+
+### jekyll-seo-tag:
+For use you only need add this plugin on the plugins array on **_config.yml**
 
 ## Contributing
 

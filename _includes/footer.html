@@ -1,6 +1,7 @@
 <footer>
 	{% if site.social_links %}
 	<nav id="social_links">
+		{% if.site.rss%}<a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" class="icon-rss"></a>{% endif %}
 		{% if site.facebook %}<a href="{{site.facebook}}" class="icon-facebook" target="_black" title="Facebook"></a>{% endif %}
 		{% if site.github %}<a href="{{site.github}}" class="icon-github" target="_black" title="Github"></a>{% endif %}
 		{% if site.gplus %}<a href="{{site.gplus}}" class="icon-gplus" target="_black" title="Google+"></a>{% endif %}
