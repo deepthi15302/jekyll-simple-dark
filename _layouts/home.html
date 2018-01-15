@@ -20,7 +20,7 @@ layout: default
 	{% if paginator.total_pages > 1 %}
 		<nav id="pagination">
 		{% if paginator.previous_page %}
-			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="icon-prev"></i></a>
+			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | prepend: site.url }}"><i class="icon-prev"></i></a>
 		{% else %}
 			<span class="icon-prev inactive"></span>
 		{% endif %}
@@ -29,14 +29,14 @@ layout: default
 			{% if page == paginator.page %}
 			<span class="actual-page inactive">{{ page }}</span>
 			{% elsif page == 1 %}
-			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | prepend: site.url }}">{{ page }}</a>
 			{% else %}
-			<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+			<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page | prepend: site.url }}">{{ page }}</a>
 			{% endif %}
 		{% endfor %}
 
 		{% if paginator.next_page %}
-			<a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/'}}"><i class="icon-next"></i></a>
+			<a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | prepend: site.url }}"><i class="icon-next"></i></a>
 		{% else %}
 			<span class="icon-next inactive"></span>
 		{% endif %}
