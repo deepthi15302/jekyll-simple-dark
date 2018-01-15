@@ -48,7 +48,7 @@ paginate: 5 # Posts per page
 paginate_path: "page:num/"
 ```
 
-Rename **index.md** to **index.html** and change this line, `layout: home` to `layout: default`
+Rename **index.md** to **index.html** and change **layout** to *home*
 
 And then execute:
 
