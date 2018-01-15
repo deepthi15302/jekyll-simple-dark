@@ -24,6 +24,6 @@ plugins:
 
 # Pagination
 paginate: 3
-paginate_path: "page:num/"
+paginate_path: "jekyll-simple-dark/page:num/"
 
 google-analytics: UA-75229203-1
