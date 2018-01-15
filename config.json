@@ -79,6 +79,18 @@
       "src": "fontawesome"
     },
     {
+      "uid": "f3f90c8c89795da30f7444634476ea4f",
+      "css": "prev",
+      "code": 61700,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "7bf14281af5633a597f85b061ef1cfb9",
+      "css": "next",
+      "code": 61701,
+      "src": "fontawesome"
+    },
+    {
       "uid": "83ebb03dce0a930910280e4b1e8333b1",
       "css": "telegram",
       "code": 59396,

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-simple-dark"
-  spec.version       = "0.3.1"
+  spec.version       = "0.3.2"
   spec.authors       = ["Alfonso Saavedra 'Son Link'"]
   spec.email         = ["sonlink.dourden@gmail.com"]
 
