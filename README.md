@@ -18,6 +18,12 @@ Support socials networks links (simple add the links on your _config.yml):
 * Vimeo
 * Instagram
 * Linkedin
+* Reedit
+* Spotify
+* Telegram
+* GitLab
+* GitHub
+* Git
 
 If you need a icon for others socials networks create a new issue on theme repository.
 
@@ -66,13 +72,19 @@ For activate social links add these lines on your _config.yml:
 social_links: true  # If true show social links
 rss: true # For add icon to link feed.xml
 facebook:
+git:
+gitlab:
 github:
 gplus:
 instagram:
 linkedin:
+reedit:
+spotify:
 pinterest:
+telegram:
+twitch:
 twitter:
-site.vimeo:
+vimeo:
 youtube:
 ```
 Just add the ones you're going to use.
@@ -99,6 +111,11 @@ Where &lt;code> is your Google Analytics code.
 
 ### jekyll-seo-tag:
 For use you only need add this plugin on the plugins array on **_config.yml**
+
+### Icons:
+This theme include somo icons ready to use.
+
+
 
 ## Contributing
 
