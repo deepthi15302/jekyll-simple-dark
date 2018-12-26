@@ -1,0 +1,13 @@
+pages:
+  stage: deploy
+  script:
+    - gem install jekyll
+    - jekyll build -d public/
+    - cp -r assets public/a
+  artifacts:
+    paths:
+      - public
+  only:
+    - pages
+
+
